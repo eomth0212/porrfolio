@@ -41,11 +41,22 @@ body {
 a {
     text-decoration: none;
     color: #f6f5fa;
+    margin-top: auto;
 }
 
 ul {
-    list-style: none;
     padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 /* Typogrphy */
@@ -96,9 +107,17 @@ p {
 }
 
 .navbar__logo {
-    font-size: var(--font-medium);
+    font-size: var(--font-regular);
     font-weight: var(--weight-semi-bold);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
 }
+
+
+
+
 
 .navbar__menu__item {
     padding: 8px 12px;
@@ -138,9 +157,12 @@ p {
 }
 
 .home__contact {
+    color: var(--color-white);
     font-size: var(--font-regular);
     font-weight: var(--weight-regular);
     margin: 24px;
     padding: 8px 12px;
-    border
+    border: 2px solid var(--color-white)
+    border-radius: var(--size-border-radius)
+    
 }
