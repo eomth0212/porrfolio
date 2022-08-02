@@ -38,6 +38,8 @@ body {
     cursor: default;
 }
 
+
+
 a {
     text-decoration: none;
     color: #f6f5fa;
@@ -165,4 +167,33 @@ p {
     border: 2px solid var(--color-white)
     border-radius: var(--size-border-radius)
     
+}
+
+/* Section common */
+.section {
+    padding: 50px;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: auto;
+}
+
+
+/* About */
+.about__majors {
+    display: flex;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.major__icon {
+    width: 170px;
+    height: 170px;
+    line-height: 170px;
+    font-size: 70px;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+    margin: auto;
 }
