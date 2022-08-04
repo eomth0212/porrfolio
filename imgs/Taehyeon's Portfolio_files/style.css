@@ -27,9 +27,6 @@
     --size-border-radius:4px;
 }
 
-/* Annimation */
---animation-duration: 300ms;
-
 /* Universal tags */
 * {
     box-sizing: border-box;
@@ -198,49 +195,4 @@ p {
     border: 1px solid var(--color-light-orangy);
     border-radius: 50%;
 }
-.major__icon i {
-    transition: all 300ms ease;
-}
-
-.major__icon:hover i{
-    color: var(--color-pulple-blue);
-    transform: rotate(-30deg) scale(1.1);
-}
-
-.major__title, .major__description{
-    color: var(--color-dark-grey);
-}
-
-.major__description {
-    font-size: var(--font-small);
-}
-
-.job {
-    display: flex;
-    align-items: center;
-}
-
-.job__description {
-    margin: 0 16px;
-    text-align: left;
-}
-
-.job__name,
-.job__period {
-    color: var(--color-dark-grey);
-}
-
-.job__name {
-    font-size: var(--font-small);
-}
-
-.job__period {
-    font-size: var(--font-micro);
-}
-
-
-
-
-
-
 
