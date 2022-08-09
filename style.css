@@ -363,7 +363,7 @@ p {
     left: 0;
     opacity: 0;
     transform: translateY(10px);
-    transition: all var(--animation-duration);
+    transition: all var(--animation-duration) ease-in;
 }
 
 .project:hover .project__description {
@@ -429,5 +429,36 @@ p {
     color: var(--color-light-orangy);
 }
 
+/* Contact */
+#contact {
+    background-color: var(--color-light-orangy);
+}
+
+.contact__title, 
+.contact__email,
+.contact__right {
+    color: var(--color-white);
+}
+
+.contact__title {
+    margin: 32px 0;
+}
+
+.contact__links {
+    font-size: var(--font-large);
+    margin: 24px 0;
+}
+
+.contact__links i:hover {
+    transform: scale(1.1);
+    color: #d41e33;
+    transition: var(--animation-duration) ease-in;
+}
+
+.contact__email:hover {
+    transform: scale(1.1);
+    color: blueviolet;
+    transition: var(--animation-duration) ease-in;
+}
 
 
