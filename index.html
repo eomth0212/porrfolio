@@ -31,7 +31,7 @@
         </div>
         <div class="navbar__menu">
             <ul class="navbar__menu">
-                <li class="navbar__menu__item active">Home</li>
+                <li class="navbar__menu__item">Home</li>
                 <li class="navbar__menu__item">About</li>
                 <li class="navbar__menu__item">Skills</li>
                 <li class="navbar__menu__item">My work</li>
@@ -39,6 +39,11 @@
                 <li class="navbar__menu__item">Contact</li>
             </ul>
         </div>
+
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </nav>
     <!-- Home -->
     <section id="home" class="section">
@@ -52,7 +57,8 @@
     </section>
     <!-- About -->
     <section id="about" class="section">
-        <h1>About me</h1>
+        <div class="section__container">
+            <h1>About me</h1>
         <p>현재 프론트엔드 개발을 공부중이고 Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br /> Repellat eveniet veniam facere. Blanditiis temporibus quas velit maxime adipisci doloribus fuga reiciendis nemo<br /> voluptatem enim nihil quos, natus consequuntur ab dicta.</p>
         
         <div class="about__majors">
@@ -90,6 +96,7 @@
                     </div>
                 </div>
                 </div>
+        </div>
             
     </section>
     <!-- Skills -->
@@ -154,7 +161,7 @@
             <h1>My work</h1>
         <h2>Projects</h2>
         <div class="work__categories">
-            <button class="category__btn active">ALL<span class="category__count">8</span></button>
+            <button class="category__btn">ALL<span class="category__count">8</span></button>
             <button class="category__btn">Frontend<span class="category__count">3</span></button>
             <button class="category__btn">Backend<span class="category__count">3</span></button>
             <button class="category__btn">Mobile<span class="category__count">2</span></button>
