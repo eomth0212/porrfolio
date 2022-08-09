@@ -174,7 +174,7 @@ p {
 }
 
 .section__container {
-    max-width: 1200;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -455,10 +455,6 @@ p {
     transition: var(--animation-duration) ease-in;
 }
 
-.contact__email:hover {
-    transform: scale(1.1);
-    color: blueviolet;
-    transition: var(--animation-duration) ease-in;
-}
+
 
 
