@@ -537,6 +537,7 @@ q
     .navbar__menu.open {
         display: block;
     }
+
 .about__majors{
     flex-direction: column;
 }
