@@ -349,7 +349,7 @@ p {
     top: -20px;
     left: 4px;
     opacity: 0;
-    transition: var(--animation-duration);
+    transition: all var(--animation-duration) ease-in;
 }
 
 .work__projects {
@@ -527,14 +527,15 @@ q
         padding: 8px;
     }
 
-    .navbar__menu.open {
-        display: block;
-    }
     .navbar__menu {
         flex-direction: column;
         text-align: center;
         width: 100%;
         display: none;
+    }
+
+    .navbar__menu.open {
+        display: block;
     }
 .about__majors{
     flex-direction: column;
