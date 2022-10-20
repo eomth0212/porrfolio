@@ -131,7 +131,7 @@ p {
 
 .navbar__menu__item {
     padding: 8px 12px;
-    margin: 0 4px;
+    margin: 0px 4px;
     color: var(--color-white);
     cursor: pointer;
 }
@@ -170,7 +170,6 @@ p {
     height: 250px;
     border-radius: 50%;
     border: 2px solid white;
-    
 }
 
 .home__title
@@ -187,6 +186,10 @@ p {
     border: 2px solid var(--color-white);
     border-radius: var(--size-border-radius);
     
+}
+
+.home__contact:hover {
+    background-color: #f2a955;
 }
 
 /* Section common */
@@ -375,7 +378,7 @@ p {
     justify-content: center;
     display: flex;
 }
-q
+
 .project.invisible {
     display: none;
 }
@@ -516,15 +519,26 @@ q
     .navbar__toggle-btn {
         display: block;
     }
+
+     :root {/* Font size */
+    --font-large: 30px;
+    --font-medium: 18px;
+    --font-regular: 15px;
+    --font-small: 14px;
+    --font-micro: 12px;
+    }
+
+
     #navbar {
         flex-direction: column;
-        align-items: flex-start;
-        
+        align-items: flex-start;    
     }
 
     #navbar.navbar--dark {
-        background-color: var(--color-light-orangy);
-        padding: 8px;
+        background-color: rgb(18, 101, 134);
+        padding: 16px;
+        opacity: 1;
+        transition: 100ms ease-in;
     }
 
     .navbar__menu {
@@ -534,8 +548,12 @@ q
         display: none;
     }
 
+
     .navbar__menu.open {
-        display: block;
+        display: flex;
+    }
+    .section {
+        padding: 16px;
     }
 
 .about__majors{
